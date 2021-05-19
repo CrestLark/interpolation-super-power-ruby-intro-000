@@ -2,6 +2,7 @@
 display_rainbow = ['red', 'orange,', 'yellow', 'green', 'blue,' 'indigo,' 'violet']
 colors = ["R:red", "O:orange", "Y:yellow", "G:green", "B:blue", "I:indigo" "V:violet"]
 def display_rainbow(colors)
+  puts "The correct order of the rainbow is #{colors}"
 puts "The first color in the rainbow is: #{colors[0]}"
 puts "The second color in the rainbow is: #{colors[1]}"
 puts "The third color in the rainbow is: #{colors[2]}"
